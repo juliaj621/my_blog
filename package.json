@@ -19,6 +19,8 @@
   "homepage": "https://github.com/juliaj621/my_blog#readme",
   "dependencies": {
     "ejs": "^3.0.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-partials": "^0.3.0",
+    "sass": "^1.24.3"
   }
 }
