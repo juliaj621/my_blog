@@ -5,11 +5,16 @@
   color: white;
   background-image: url("https://i.ibb.co/vh6D39b/IMG-0617.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar {
   background-color:#9AE9EE;
   font-family: 'Zilla Slab', serif;
+  color: white;
+}
+
+.nav-link .nav-item {
   color: white;
 }
 
