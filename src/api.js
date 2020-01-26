@@ -20,6 +20,19 @@ router.get("/about", (req, res) => {
   res.render("about")
 })
 
+router.get("/socialmedia", (req, res) => {
+  res.render("socialmedia");
+});
+
+router.get("/github", (req, res) => {
+  res.render("github");
+});
+
+router.get("/resume", (req, res) => {
+  res.render("resume");
+});
+
+
 app.use("/.netlify/functions/api",  router);
 
 module.exports.handler = serverless(app);
