@@ -1,14 +1,24 @@
 .body{
+  height: 100%;
+  width: 100%;
   font-family: 'Pacifico', cursive;
   background-image: url("https://i.ibb.co/vh6D39b/IMG-0617.jpg")
 }
 
-.navbar1 {
+#navbar1 {
   background-color:#9AE9EE;
   font-family: 'Zilla Slab', serif;
 }
 
+.landing-title {
+  margin-top: 30px;
+  text-align: center
+}
 
 .landing-links {
   font-family: 'Zilla Slab', serif;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center
 }
