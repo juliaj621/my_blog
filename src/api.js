@@ -32,6 +32,9 @@ router.get("/resume", (req, res) => {
   res.render("resume");
 });
 
+router.get("/photography", (req, res) => {
+  res.render("photography");
+});
 
 app.use("/.netlify/functions/api",  router);
 

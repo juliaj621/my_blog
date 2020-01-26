@@ -2,12 +2,15 @@
   height: 100%;
   width: 100%;
   font-family: 'Pacifico', cursive;
-  background-image: url("https://i.ibb.co/vh6D39b/IMG-0617.jpg")
+  color: white;
+  background-image: url("https://i.ibb.co/vh6D39b/IMG-0617.jpg");
+  background-repeat: no-repeat;
 }
 
-#navbar1 {
+.navbar {
   background-color:#9AE9EE;
   font-family: 'Zilla Slab', serif;
+  color: white;
 }
 
 .landing-title {
