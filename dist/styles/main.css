@@ -12,13 +12,21 @@
   background-color:#9AE9EE;
   font-family: 'Zilla Slab', serif;
   color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.nav-link .nav-item {
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a .navbar-light .navbar-nav .nav-link {
   color: white;
 }
 
-.landing-title {
+a .landing-title {
   margin-top: 30px;
   text-align: center
 }
