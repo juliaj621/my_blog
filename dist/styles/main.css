@@ -41,6 +41,7 @@ h1.landing-title {
   width:100%;
   margin-top: 30px;
   text-align: center;
+  font-size: 60px;
 }
 
 .landing-links {
@@ -51,12 +52,13 @@ h1.landing-title {
   color: white;
   text-align: center;
   top: 0;
-  margin-top: 200px;
-  width: 100%
+  margin-top: 250px;
+  width: 100%;
+  font-size: 30px;
 }
 
 .landing-image {
   position: relative;
   object-fit: cover;
-  width: 100%
+  height: 1000px;
 }
