@@ -2,6 +2,10 @@ a {
   color: white;
 }
 
+a:hover{
+ color: white;
+}
+
 .body{
   height: 100%;
   width: 100%;
@@ -27,15 +31,27 @@ a.nav-link {
   color: white;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: white
+}
+
 a.landing-title {
+  position: absolute;
   margin-top: 30px;
   text-align: center
 }
 
 .landing-links {
+  position: absolute;
   font-family: 'Zilla Slab', serif;
   display: flex;
   flex-direction: column;
   color: white;
   text-align: center
+}
+
+.landing-image {
+  position: relative;
+  height: 500px;
+  width: auto;
 }
