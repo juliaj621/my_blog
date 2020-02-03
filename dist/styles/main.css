@@ -1,11 +1,12 @@
+a {
+  color: white;
+}
+
 .body{
   height: 100%;
   width: 100%;
   font-family: 'Pacifico', cursive;
   color: white;
-  background-image: url("https://i.ibb.co/vh6D39b/IMG-0617.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .navbar {
@@ -22,11 +23,11 @@
   margin-right: 10px;
 }
 
-a .navbar-light .navbar-nav .nav-link {
+a.nav-link {
   color: white;
 }
 
-a .landing-title {
+a.landing-title {
   margin-top: 30px;
   text-align: center
 }
