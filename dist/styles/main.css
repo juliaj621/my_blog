@@ -57,6 +57,6 @@ h1.landing-title {
 
 .landing-image {
   position: relative;
-  height: 500px;
-  width: auto;
+  object-fit: cover;
+  width: 100%
 }
