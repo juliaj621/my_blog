@@ -75,10 +75,22 @@ h1.landing-title {
 .photography-grid {
   width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-wrap: wrap;
+}
+
+li {
+  height: 40vh;
+  flex-grow: 1;
+}
+
+.single-photo {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
 }
 
 .rotate-90 {
   transform: rotate(90deg);
 }
+
